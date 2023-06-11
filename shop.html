@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="/assets/css/shop.css" />
+  <link rel="stylesheet" href="/assets/css/home.css">
+  <link rel="stylesheet" href="/assets/css/grid.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+<div class="containerr">
+    <!-- Header -->
+  <header class="header">
+    <img src="/img/logo.png" alt="" />
+
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#shops">Shops</a>
+      <a href="#categories">Categories</a>
+      <a href="#review">Review</a>
+      <a href="#blogs">Blogs</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here.." />
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="/FOOD ORDER/img/fried chicken.jpg" alt="" />
+        <div class="content">
+          <h3>Fried Chicken Combo</h3>
+          <span class="price">$7.99/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="/FOOD ORDER/img/burger.png" alt="" />
+        <div class="content">
+          <h3>Burger</h3>
+          <span class="price">$4.99/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="/FOOD ORDER/img/coffee1.png" alt="" />
+        <div class="content">
+          <h3>Coffee</h3>
+          <span class="price">$5.99/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+
+      <div class="total">Total: 18.97$/-</div>
+      <a href="#" class="btn">Check Out</a>
+    </div>
+
+    <form action="" class="login-form">
+      <h3>Login Now</h3>
+      <input type="Email" placeholder="Your Email" class="box" />
+      <br />
+      <input type="Password" placeholder="Your Password" class="box" />
+      <p>Forget your password? <a href="#">Click here</a></p>
+      <p>Don't have an account? <a href="#">Create an account</a></p>
+      <input type="submit" value="Login Now" class="btn" />
+    </form>
+  </header>
+
+
+  <!-- Content -->
+  <section>
+  <!-- <div class="grid"> -->
+    <div class="contentt row">
+      <!-- Order -->
+      <div class="col l-9 m-12 c-12">
+        <div class="orderr">
+          <!-- Search -->
+          <div class="searchh">
+            <input type="search" placeholder="Search category or menu">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span>5 item out of stocks</span>
+          </div>
+    
+          <!-- Header -->
+          <div class="headerr">
+            <button>
+              <i class="fa-solid fa-pizza-slice"></i>
+              Pizza
+            </button>
+    
+            <button>
+              <i class="fa-solid fa-burger"></i>
+              Burger
+            </button>
+    
+            <button>
+              <i class="fa-solid fa-bowl-food"></i>
+              Rice
+            </button>
+    
+            <button>
+              <i class="fa-solid fa-cookie-bite"></i>
+              Snack
+            </button>
+    
+            <button>
+              <i class="fa-solid fa-mug-hot"></i>
+              Drink
+            </button>
+          </div>
+    
+          <div class="shop">
+            <div class="option">
+              <span>Choose Burger's shop</span>      
+            </div>
+    
+            <div class="box row">
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/mcdonalds.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">McDonald's</li>
+                    <li class="money">$4,99/--10,00/-</li>
+                    <li class="number">23 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/jolibee.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Jolibee</li>
+                    <li class="money">$5,87/--$9,90/-</li>
+                    <li class="number">9 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/burgerking.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Burger King</li>
+                    <li class="money">$4,87/--10,00/-</li>
+                    <li class="number">8 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/wendys.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Wendy's</li>
+                    <li class="money">$5,00/--8,99/-</li>
+                    <li class="number">15 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/kfc.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">KFC</li>
+                    <li class="money">$4,99/--10,00/-</li>
+                    <li class="number">9 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/sonic-drive-in-logo.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Sonic Drive-In</li>
+                    <li class="money">$5,00/--12,00/-</li>
+                    <li class="number">7 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+
+          <div class="shop">
+            <div class="option">
+              <span>Choose Pizza's shop</span>      
+            </div>
+    
+            <div class="box row">
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/dominopizza.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Domino’s</li>
+                    <li class="money">$4,23/--10,00/-</li>
+                    <li class="number">10 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/papajohn.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Papa John’s</li>
+                    <li class="money">$5,87/--9,00/-</li>
+                    <li class="number">9 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/lazizpizza.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Laziz Pizza</li>
+                    <li class="money">$4,99/--12,00/-</li>
+                    <li class="number">10 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/littlecaesars.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Little Caesars</li>
+                    <li class="money">$5,00/--10/-</li>
+                    <li class="number">11 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/PizzaExpressBlack.svg.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Pizza Express</li>
+                    <li class="money">$4,99/--10,99/-</li>
+                    <li class="number">18 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/zyro-image (2).png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Marco’s Pizza</li>
+                    <li class="money">$4,00/--10,00/-</li>
+                    <li class="number">10 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+
+          <div class="shop">
+            <div class="option">
+              <span>Choose Drink's shop</span>      
+            </div>
+    
+            <div class="box row">
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/highland.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">HighLands</li>
+                    <li class="money">$4,87/--6,92/-</li>
+                    <li class="number">7 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/gongcha.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Gong cha</li>
+                    <li class="money">$5,87/--9,00/-</li>
+                    <li class="number">9 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/phuclong.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Phuc Long</li>
+                    <li class="money">$5,00/--6,70/-</li>
+                    <li class="number">18 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/starbucks.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Starbucks</li>
+                    <li class="money">$6,00/--8,99/-</li>
+                    <li class="number">12 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/tocotoco.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">TocoToco</li>
+                    <li class="money">$4,10/--6,00/-</li>
+                    <li class="number">15 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col l-4 m-6 c-12">
+                <div class="shop-item">
+                  <div class="photo">
+                    <img src="/img/dunkindonut.png" alt="">
+                  </div>
+    
+                  <ul>
+                    <li class="name">Dunkin Donuts</li>
+                    <li class="money">$6,00/--10,99/-</li>
+                    <li class="number">8 Pan <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+
+        </div>
+      </div>
+  
+      <!-- Cart -->
+      <div class="col l-3 m-0 c-0">
+        <div class="cart">
+          <div class="title">
+            <ul>
+              <li class="first-title">Current Orders</li>
+              <li class="first-title right">Table</li>
+            </ul>
+  
+            <ul>
+              <li class="last-title">#907653</li>
+              <li class="last-title right">T1</li>
+            </ul>
+          </div>
+  
+          <div class="type">
+            <button class="type-left">Dine in</button>
+            <button class="type-right">Take Away</button>
+          </div>
+  
+          <div class="cart-content">
+            <ul class="cart-list">
+              <li class="cart-item">
+                <div class="img">
+                  <img src="/img/aaa" alt="">
+                </div>
+                
+                <div class="inf">
+                  <div class="name">Orange Juice</div>
+                  <div class="note">
+                    Note: Less Ice
+                  </div>
+                  <div class="money">$3,00</div>
+                  <div class="edit">
+                    <div class="edit-left">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="number">2</span>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="edit-right">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cart-item">
+                <div class="img">
+                  <img src="/img/zyro-image (3).png" alt="">
+                </div>
+                
+                <div class="inf">
+                  <div class="name">Hamburger</div>
+                  <div class="note">
+                    Note: No salad
+                  </div>
+                  <div class="money">$2,87</div>
+                  <div class="edit">
+                    <div class="edit-left">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="number">4</span>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="edit-right">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="cart-item">
+                <div class="img">
+                  <img src="/img/coffee1.png" alt="">
+                </div>
+                
+                <div class="inf">
+                  <div class="name">Orange Juice</div>
+                  <div class="note">
+                    Note: Less Ice
+                  </div>
+                  <div class="money">$2,87</div>
+                  <div class="edit">
+                    <div class="edit-left">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="number">4</span>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="edit-right">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <!-- <li class="cart-item">
+                <div class="img">
+                  <img src="/img/coffee1.png" alt="">
+                </div>
+                
+                <div class="inf">
+                  <div class="name">Orange Juice</div>
+                  <div class="note">
+                    Note: Less Ice
+                  </div>
+                  <div class="money">$2,87</div>
+                  <div class="edit">
+                    <div class="edit-left">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="number">4</span>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="edit-right">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+
+              <!-- <li class="cart-item">
+                <div class="img">
+                  <img src="/img/coffee1.png" alt="">
+                </div>
+                
+                <div class="inf">
+                  <div class="name">Orange Juice</div>
+                  <div class="note">
+                    Note: Less Ice
+                  </div>
+                  <div class="money">$2,87</div>
+                  <div class="edit">
+                    <div class="edit-left">
+                      <i class="fa-solid fa-minus"></i>
+                      <span class="number">4</span>
+                      <i class="fa-solid fa-plus"></i>
+                    </div>
+
+                    <div class="edit-right">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+
+            <div class="board">
+              <div class="item">
+                <div class="title">Items(7)</div>
+                <div class="prize">$28,67</div>
+              </div>
+
+              <div class="tax">
+                <div class="title">Tax(10)</div>
+                <div class="prize">$2,86</div>
+              </div>
+              
+              <div class="total">
+                <div class="title">Total</div>
+                <div class="prize">$31,53</div>
+              </div>
+
+              <button>Print Bills</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- </div> -->
+</section>
+
+  
+  <footer>
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            bibendum vehicula nibh ac elementum.</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+  
+        <div class="box">
+          <h3>Contact Us</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +84 988 406 018 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> lamtn.22git@vku.udn.vn </a>
+          <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ngu Hanh Son, Da Nang </a>
+        </div>
+  
+        <div class="box">
+          <h3>Our Service</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Shops </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+        </div>
+  
+  
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for Latest Update</p>
+          <input type="email" placeholder="Your Email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+          <img src="" alt="" class="payment-img">
+        </div>
+  
+      </div>
+  
+      <div class="credit"> created by <span>Radiancy </span> | All rights reserved</div>
+    </section>
+  </footer>
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/home.js"></script>
+</body>
+
+</html>
