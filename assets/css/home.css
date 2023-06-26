@@ -7,6 +7,7 @@
     outline: none;
     border: none;
     text-decoration: none;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -14,10 +15,7 @@
     --brown: #3E2615;
     --yellow: #D1891E;
     --black: #141414;
-    --orange: #EC7905;
     --light-color: #666;
-    --text-color: #393939;
-    --money-color: #f09e44;
     --box-shadow: 0 .5rem 1.5rem rga(0, 0, 0, .1);
     --border: 0.2rem solid rgba(0, 0, 0, .1);
     --outline: 1rem solid rgba(0, 0, 0, .1);
@@ -37,7 +35,6 @@ body {
 
 section {
     padding: 2rem 9%;
-    margin: 0 auto;
 }
 
 .heading {
@@ -91,6 +88,10 @@ img {
     padding: 2rem 9%;
     background: #fff;
     box-shadow: var(--box-shadow);
+}
+
+.header img {
+    cursor: pointer;
 }
 
 .header .navbar a {
@@ -193,6 +194,7 @@ img {
 }
 
 .header .shopping-cart .box img {
+    width: 40%;
     height: 10rem;
 }
 
@@ -238,13 +240,6 @@ img {
     margin: 1rem;
 
 }
-
-.cart-hover {
-    width: 500px;
-    height: 200px;
-    background-color: red;
-}
-
 
 .header .login-form {
     position: absolute;
@@ -299,7 +294,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/img/home-bg.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     padding-top: 17rem;
@@ -309,11 +303,14 @@ img {
 .home .content {
     text-align: center;
     width: 60rem;
+    /* padding-right: 500px; */
+    position: relative !important;
+    top: 100% !important;
 }
 
 .home .content h3 {
     color: var(--yellow);
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .home .content h3 span {
@@ -322,7 +319,7 @@ img {
 
 .home .content p {
     color: var(--light-color);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     padding: 1rem 0;
     line-height: 1.8;
 }
@@ -666,11 +663,32 @@ img {
     font-size: 2rem;
     color:var(--black);
     border-top: var(--border);
+    text-transform: capitalize;
 }
 
 .footer .credit span {
     color: var(--yellow);
 }
+
+.footer .box-container .box .payments a {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    font-size: 2rem; 
+    text-align: center;
+    background-color: #eee;
+    color: var(--black);
+    border-radius: .5rem;
+    margin-top: 1rem;
+
+}
+
+.footer .box-container .box .payments a:hover {
+    background: var(--yellow);
+    color: #fff;
+}
+
 
 /* end footer section */
 

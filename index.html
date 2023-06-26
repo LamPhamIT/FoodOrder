@@ -10,12 +10,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
-    <link rel="stylesheet" href="/assets/css/home.css" />
-    <!-- <link rel="stylesheet" href="shop/asset/main.css"> -->
-    <!-- <link rel="stylesheet" href="shop/asset/grid.css"> -->
-    
-    
-    <title>Order Here</title>
+    <link rel="stylesheet" href="assets/css/home.css" />
+
+    <title>Home</title>
 
     <link
       rel="stylesheet"
@@ -33,7 +30,7 @@
         <a href="#features">Features</a>
         <a href="#shops">Shops</a>
         <a href="#categories">Categories</a>
-        <a href="#review">Review</a>
+        <a href="#review">Reviews</a>
         <a href="#blogs">Blogs</a>
       </nav>
 
@@ -52,33 +49,33 @@
       <div class="shopping-cart">
         <div class="box">
           <i class="fas fa-trash"></i>
-          <img src="img/fried chicken.jpg" alt="" />
+          <img src="img/chicken-cart.png" alt="" />
           <div class="content">
-            <h3>Fried Chicken Combo</h3>
-            <span class="price">$7.99/-</span>
-            <span class="quantity">qty: 1</span>
-          </div>
-        </div>
-        <div class="box">
-          <i class="fas fa-trash"></i>
-          <img src="img/burger.png" alt="" />
-          <div class="content">
-            <h3>Burger</h3>
+            <h3>Fried Chicken</h3>
             <span class="price">$4.99/-</span>
+            <span class="quantity">qty: 3</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="img/starbucks.png" alt="" />
+          <div class="content">
+            <h3>Matcha Latte</h3>
+            <span class="price">$5.99/-</span>
             <span class="quantity">qty: 1</span>
           </div>
         </div>
         <div class="box">
           <i class="fas fa-trash"></i>
-          <img src="img/coffee1.png" alt="" />
+          <img src="img/pizza.jpg" alt="" />
           <div class="content">
-            <h3>Coffee</h3>
+            <h3>Chicken Pizza</h3>
             <span class="price">$5.99/-</span>
             <span class="quantity">qty: 1</span>
           </div>
         </div>
 
-        <div class="total">Total: 18.97$/-</div>
+        <div class="total">Total: 26.95$/-</div>
         <a href="#" class="btn">Check Out</a>
       </div>
 
@@ -88,7 +85,7 @@
         <br />
         <input type="Password" placeholder="Your Password" class="box" />
         <p>Forget your password? <a href="#">Click here</a></p>
-        <p>Don't have an account? <a href="#">Create an account</a></p>
+        <p>Don't have an account? <a href="signin/index.html">Create an account</a></p>
         <input type="submit" value="Login Now" class="btn" />
       </form>
     </header>
@@ -97,14 +94,14 @@
 
     <!-- home section -->
 
-    <section class="home" id="home">
+    <section class="home" id="home" style="background-image: url(img/homebg.png) no-repeat;">
       <div class="content">
-        <h3>Fresh and <span>Organic </span>Products for you</h3>
+        <h3>Your <span>Ultimate Food </span>Ordering Destination</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum
-          vehicula nibh ac elementum. Nulla et euismod nibh.
+          Welcome to Radiancy, the ultimate food ordering website 
+          designed to satisfy your cravings and make mealtime a breeze.
         </p>
-        <a href="#" class="btn">Shop Now</a>
+        <a href="index.html" class="btn">Shop Now</a>
       </div>
     </section>
 
@@ -119,9 +116,9 @@
           <img src="img/feature1.png" alt="" />
           <h3>Fresh and Organic</h3>
           <p>
-            With our fast deliveries, transparent tracking, versatile options, 
-            and exceptional customer support, we're confident that we can meet 
-            and exceed your expectations. 
+            In a world where processed and artificially enhanced foods dominate 
+            our plates, it is essential to rediscover the vibrant flavors and
+            nutritional benefits.
           </p>
           <a href="#" class="btn">Read More</a>
         </div>
@@ -155,20 +152,20 @@
     <!-- shops section -->
 
     <section class="shops" id="shops">
-      <h1 class="heading">Our <span><a href="shop/index.html">Shops</a></span></h1>
+      <h1 class="heading">Our <span><a href="index.html">Shops</a></span></h1>
 
       <div class="swiper shop-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide box">
             <img src="img/kfc.png" alt="" />
             <h3>KFC</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$4.99/- - 40.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -176,7 +173,7 @@
           <div class="swiper-slide box">
             <img src="img/mcdonalds.png" alt="" />
             <h3>McDonald's</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$2.99/- - 34.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -196,7 +193,6 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -204,7 +200,7 @@
           <div class="swiper-slide box">
             <img src="img/burgerking.png" alt="" />
             <h3>Burger King</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$1.99/- - 20.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -218,13 +214,13 @@
           <div class="swiper-slide box">
             <img src="img/dominopizza.png" alt="" />
             <h3>Domino's Pizza</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$3.99/- - 14.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -246,7 +242,7 @@
           <div class="swiper-slide box">
             <img src="img/dunkindonut.png" alt="" />
             <h3>Dunkin' Donuts</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$5.99/- - 25.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -266,7 +262,7 @@
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -274,7 +270,7 @@
           <div class="swiper-slide box">
             <img src="img/wendys.png" alt="" />
             <h3>Wendy's</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$14.99/- - 32.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -290,15 +286,15 @@
       <div class="swiper shop-slider">
         <div class="swiper-wrapper">
           <div class="swiper-slide box">
-            <img src="img/starbucks.png" alt="" />
+            <img src="img/starbucks-logo.png" alt="" />
             <h3>Starbucks</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$4.99/- - 19.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -306,7 +302,7 @@
           <div class="swiper-slide box">
             <img src="img/phuclong.png" alt="" />
             <h3>Phuc Long</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$2.99/- - 23.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -334,13 +330,12 @@
           <div class="swiper-slide box">
             <img src="img/tocotoco.png" alt="" />
             <h3>TocoToco</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$2.99/- - 25.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -348,13 +343,13 @@
           <div class="swiper-slide box">
             <img src="img/highland.png" alt="" />
             <h3>Highlands</h3>
-            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="price">$2.99/- - 20.99/-</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i class="fas fa-star"></i>
             </div>
             <a href="#" class="btn">Add to Cart</a>
           </div>
@@ -486,6 +481,24 @@
               <i class="fas fa-star"></i>
             </div>
           </div>
+
+          
+          <div class="swiper-slide box">
+            <img src="img/pic-6.png" alt="" />
+            <p>
+              The ordering process is seamless, and I appreciate the various payment options 
+              available. The delivery service is always prompt, and the food arrives in perfect 
+              condition. The app is incredibly user-friendly.
+            </p>
+            <h3>Ngan Ha</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
           
         </div>
       </div>
@@ -500,92 +513,58 @@
 
       <div class="box-container">
         <div class="box">
-          <img src="" alt="" />
+          <img src="img/blog1.png" alt="" />
           <div class="content">
             <div class="icons">
               <a href="#"> <i class="fas fa-user"></i> by Nhat Lam</a>
               <a href="#"> <i class="fas fa-calendar"></i> 30th May, 2023 </a>
             </div>
-            <h3>We Have A Wide Range of Choices for You</h3>
+            <h3>McDonald's has become an integral part of the global fast food industry</h3>
             <p>
-              One of the significant advantages of Radiancy is the extensive range 
-              of culinary options available at your fingertips. From local eateries 
-              to international cuisines, these platforms bring together a diverse array 
-              of restaurants and menus in one place. You can explore countless options without leaving your home.
+              McDonald's is one of the world's largest and most well-known fast food restaurant chains. 
+              Founded in 1940 by Richard and Maurice McDonald, the company has grown into a global phenomenon,
+              with over 37,000 locations in more than 100 countries. McDonald's has become an integral part of 
+              the global fast food industry.
             </p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
 
         <div class="box">
-          <img src="" alt="" />
+          <img src="img/blog2.png" alt="" />
           <div class="content">
             <div class="icons">
               <a href="#"> <i class="fas fa-user"></i> by Duy Hao</a>
               <a href="#"> <i class="fas fa-calendar"></i> 28th May, 2023</a>
             </div>
-            <h3>Our Service Will Help You Save Time and Effort</h3>
+            <h3>Starbucks has built a strong brand identity and loyal customer base</h3>
             <p>
-              Radiancy eliminate the need for manual processes, saving you precious time and effort. 
-              With just a few clicks, you can browse through menus, select your desired dishes, 
-              customize your order, and have it delivered right to your doorstep. This convenience 
-              is especially valuable for busy individuals.
+              Starbucks is a renowned international coffeehouse chain that was founded in 1971 in Seattle, 
+              Washington, United States. It has since become one of the most recognizable and influential 
+              brands in the global coffee industry. With thousands of stores worldwide, Starbucks has established 
+              itself as a prominent destination for coffee lovers.
             </p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
-  
+
         <div class="box">
-          <img src="" alt="" />
+          <img src="img/blog3.png" alt="" />
           <div class="content">
             <div class="icons">
               <a href="#"> <i class="fas fa-user"></i> by Van Nghia</a>
               <a href="#"> <i class="fas fa-calendar"></i> 2nd June, 2023</a>
             </div>
-            <h3>We Have A Website With User-Friendly Interface</h3>
+            <h3>Burger King has established itself as a prominent player in the fast food industry</h3>
             <p>
-              Radiancy is designed to be user-friendly and intuitive. The interfaces are typically 
-              well-organized, allowing you to navigate through various categories, view dish details. 
-              You can also access customer reviews and ratings to make informed decisions about the 
-              quality of the food and service.
+              Burger King is a well-known global fast food chain specializing in hamburgers and other fast food items. 
+              Founded in 1954 in Miami, Florida, Burger King has grown to become one of the largest hamburger chains 
+              in the world, with thousands of restaurants spread across more than 100 countries. Famous for its flame-grilled burgers.
             </p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
 
-        <!-- <div class="box">
-          <img src="" alt="" />
-          <div class="content">
-            <div class="icons">
-              <a href="#"> <i class="fas fa-user"></i> by Nhat Lam</a>
-              <a href="#"> <i class="fas fa-calendar"></i> 28th May, 2023</a>
-            </div>
-            <h3>Fresh and Organic Vegetables and Fruits</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              bibendum vehicula nibh ac elementum. Cras bibendum vehicula nibh
-              ac elementum.
-            </p>
-            <a href="#" class="btn">Read More</a>
-          </div>
-        </div>
-
-        <div class="box">
-          <img src="" alt="" />
-          <div class="content">
-            <div class="icons">
-              <a href="#"> <i class="fas fa-user"></i> by Nhat Lam</a>
-              <a href="#"> <i class="fas fa-calendar"></i> 28th May, 2023</a>
-            </div>
-            <h3>Fresh and Organic Vegetables and Fruits</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-              bibendum vehicula nibh ac elementum. Cras bibendum vehicula nibh
-              ac elementum.
-            </p>
-            <a href="#" class="btn">Read More</a>
-          </div>
-        </div> -->
 
       </div>
     </section>
@@ -621,7 +600,7 @@
           <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
           <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Shops </a>
           <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
-          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Reviews </a>
           <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
         </div>
 
@@ -631,9 +610,16 @@
           <p>Subscribe for Latest Update</p>
           <input type="email" placeholder="Your Email" class="email">
           <input type="submit" value="Subscribe" class="btn">
-          <img src="" alt="" class="payment-img">
+
+          <div class="payments">
+            <a href="#" class="fab fa-cc-visa"></a>
+            <a href="#" class=" fab fa-cc-mastercard"></a>
+            <a href="#" class="fab fa-cc-paypal"></a>
+            <a href="#" class="fab fa-cc-amazon-pay"></a>
+          </div>
+
         </div>
-        
+
       </div>
 
       <div class="credit"> created by <span>Radiancy </span> | All rights reserved</div>
@@ -643,6 +629,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <script src="/assets/js/home.js"></script>
+    <script src="assets/js/home.js"></script>
   </body>
 </html>
